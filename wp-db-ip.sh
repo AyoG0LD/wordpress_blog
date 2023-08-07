@@ -3,7 +3,7 @@ MYSQL_USER="wordpressuser"
 MYSQL_HOST="wordpressdb.cxancv1foguf.us-east-1.rds.amazonaws.com"
 MYSQL_PASS="stackinc"
 MYSQL_DB="wordpressdb"
-log_command PUBLIC_ADDRESS=`echo $(sudo curl -s ipinfo.io/ip)`
+PUBLIC_ADDRESS=`echo $(sudo curl -s ipinfo.io/ip)`
 
 SQL_COMMAND="SELECT option_name, option_value FROM wp_options WHERE option_name = 'siteurl';"
 
