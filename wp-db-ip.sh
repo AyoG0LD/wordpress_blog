@@ -1,7 +1,7 @@
 ##Update Mysql Database wordpress Ip addressa
 MYSQL_USER="wordpressuser"
 MYSQL_HOST="wordpressdbclixx.cxancv1foguf.us-east-1.rds.amazonaws.com"
-MYSQL_PASS="stackinc"
+MYSQL_PASS="W3lcome123"
 MYSQL_DB="wordpressdb"
 PUBLIC_ADDRESS=`echo $(sudo curl -s ipinfo.io/ip)`
 #LOAD_BALANCER_IP="StackAppLB-941984852.us-east-1.elb.amazonaws.com"
